@@ -1,0 +1,89 @@
+.unreset a {
+    @apply text-blue-700 underline;
+}
+.unreset p {
+    @apply my-4;
+}
+.unreset blockquote,
+.unreset figure {
+    @apply my-4 mx-10;
+}
+.unreset hr {
+    @apply border;
+}
+.unreset h1 {
+    @apply text-4xl font-bold my-2;
+}
+.unreset h2 {
+    @apply text-2xl font-bold my-3;
+}
+.unreset h3 {
+    @apply text-lg font-bold my-4;
+}
+.unreset h4 {
+    @apply text-base font-bold my-5;
+}
+.unreset h5 {
+    @apply text-sm font-bold my-6;
+}
+.unreset h6 {
+    @apply text-xs font-bold my-10;
+}
+.unreset ul,
+.unreset menu {
+    @apply list-disc my-1 pl-10;
+}
+.unreset ol {
+    @apply list-decimal my-4 pl-10;
+}
+.unreset ul ul,
+.unreset ol ul {
+    list-style-type: circle;
+}
+.unreset ul ul ul,
+.unreset ol ul ul,
+.unreset ul ol ul,
+.unreset ol ol ul {
+    list-style-type: square;
+}
+.unreset dd {
+    @apply pl-10;
+}
+.unreset dl {
+    @apply my-4;
+}
+.unreset ul ul,
+.unreset ol ul,
+.unreset menu ul,
+.unreset dl ul,
+.unreset ul ol,
+.unreset ol ol,
+.unreset menu ol,
+.unreset dl ol,
+.unreset ul menu,
+.unreset ol menu,
+.unreset menu menu,
+.unreset dl menu,
+.unreset ul dl,
+.unreset ol dl,
+.unreset menu dl,
+.unreset dl dl {
+    margin: 0;
+}
+.unreset legend {
+    @apply py-0 px-1;
+}
+.unreset fieldset {
+    @apply my-0 mx-1 pt-0 px-1 pb-2;
+}
+.unreset b,
+.unreset strong {
+    font-weight: bold;
+}
+.unreset pre {
+    @apply my-4;
+}
+
+.unreset a {
+    @apply underline text-purple-600;
+}
